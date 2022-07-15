@@ -1,10 +1,10 @@
-package mingyun;
+package P9933_mingyun;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class mingyun {
+public class P9933_mingyun {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine()); //입력 단어 갯수
