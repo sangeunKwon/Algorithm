@@ -33,6 +33,6 @@ public class P15312_nameMatch {
 			totalNum.addAll(temp);
 			temp.removeAllElements();
 		}
-		System.out.println(totalNum.get(0)+""+totalNum.get(1)+"%");
+		System.out.println(totalNum.get(0)+""+totalNum.get(1));
 	}
 }

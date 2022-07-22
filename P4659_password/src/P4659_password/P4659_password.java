@@ -41,7 +41,7 @@ public class P4659_password {
 			}
 			
 			for(int i=1; i<pw.length(); i++) {
-				if(PW.get(i) == PW.get(i-1));{//이전 문자와 같으면 false(e와 o는 제외)
+				if(PW.get(i) == PW.get(i-1)){//이전 문자와 같으면 false(e와 o는 제외)
 					if((PW.get(i)!='e') && (PW.get(i)!='o')) {
 						result = false;
 						break;
