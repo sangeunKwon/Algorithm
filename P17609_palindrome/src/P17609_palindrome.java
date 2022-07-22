@@ -44,9 +44,8 @@ public class P17609_palindrome {
 							sb.append(2+"\n");
 							break;
 						}
-						String AfstrString = str1.toString();
 						String Afrev = new StringBuilder(str1).reverse().toString();
-						if(AfstrString.equals(Afrev)) {
+						if(str1.equals(Afrev)) {
 							sb.append(1+"\n");
 							break;
 						}else {
