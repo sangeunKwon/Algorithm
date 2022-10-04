@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class P6503_keyboard {
+public class P6503_keyboard2 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
@@ -22,7 +22,6 @@ public class P6503_keyboard {
 			int end = -1; 
 			
 			while(end-1 < str.length()) {
-				
 				int[] alpha = new int[128];
 				int len = 0; //문자열 길이
 				int cnt = 0; //m만큼 갔는지 비교
