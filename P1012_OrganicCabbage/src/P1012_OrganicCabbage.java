@@ -17,7 +17,6 @@ public class P1012_OrganicCabbage {
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
 		int T = Integer.parseInt(st.nextToken());
-		
 		for(int i=0; i<T; i++) {
 			st = new StringTokenizer(br.readLine());
 			count = 0;
