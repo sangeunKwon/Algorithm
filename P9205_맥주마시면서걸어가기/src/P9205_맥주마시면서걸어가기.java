@@ -5,30 +5,32 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-class PointXY {
-	private int x, y;
-	PointXY() {
-		this.x = 0;
-		this.y = 0;
-	}
-	PointXY(int x, int y){
-		this.x = x;
-		this.y = y;
-	}
-	public int getX() {
-		return this.x;
-	}
-	public int getY() {
-		return this.y;
-	}
-}
-
 public class P9205_맥주마시면서걸어가기 {
+
+	static class PointXY {
+		private int x, y;
+		PointXY() {
+			this.x = 0;
+			this.y = 0;
+		}
+		PointXY(int x, int y){
+			this.x = x;
+			this.y = y;
+		}
+		public int getX() {
+			return this.x;
+		}
+		public int getY() {
+			return this.y;
+		}
+	}
+	
 	static int shop_cnt;
 	static PointXY home;
 	static PointXY festival;
 	static PointXY[] shop;
 	static StringBuilder sb;
+	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

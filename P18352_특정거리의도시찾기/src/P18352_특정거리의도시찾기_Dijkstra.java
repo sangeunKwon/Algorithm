@@ -6,6 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+
 public class P18352_특정거리의도시찾기_Dijkstra {
 	static ArrayList<Integer>[] relation;
 	static int[] distance;
